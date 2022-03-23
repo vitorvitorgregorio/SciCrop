@@ -40,7 +40,7 @@
 ## deploy da aplicação
 
 🌐 <a href="https://vitorvitorgregorio.github.io/SciCrop/" target="_blank"> Aqui nesse link você pode ver a aplicação online sem precisar baixar no seu computador </a> </br> <hr>
-  🌐 <a href="https://www.figma.com/file/RIYLS8oeiQwNNBrhb1O1z3/Formul%C3%A1rio-Bem-Paggo?node-id=0%3A1" target="_blank"> Neste link você consegue ver o projeto no FIGMA </a>
+  🌐 <a href="https://www.figma.com/file/MWGG4QWpyAm278HDvOKFAi/SciCrop?node-id=0%3A1" target="_blank"> Neste link você consegue ver o projeto no FIGMA </a>
   <div align="center">
     <h3> Landing page de exemplo proposta pela empresa 🔽 </h3>
     <img src="img/exemplo.png" alt="">
