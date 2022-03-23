@@ -42,20 +42,22 @@
     </header>
     <!--Header e-->
     <!-- Main s -->
-    <div class="container section-margin">
-        <div class="row">
-            <div class="col-lg-6 order-lg-2 text-end">
-                <img src="img/img1.svg" alt="" class="img-fluid">
+    <main>
+        <div class="container section-margin">
+            <div class="row">
+                <div class="col-lg-6 order-lg-2 text-end">
+                    <img src="img/img1.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 order-lg-1 mt-4 text-start">
+                    <h1>Dados de produtores, propriedades rurais e muito mais!</h1>
+                    <p> O Webfarms® é a solução perfeita para problemas robustos e nunca enfrentados no mercado Agro.
+                    Descubra o potencial dos nossos dashboards. </p>
+                    <button class="btn btn-danger red-button mb-4"> Registre-se </button>
+                </div>
             </div>
-            <div class="col-lg-6 order-lg-1 mt-4 text-center">
-                <h1>Dados de produtores, propriedades rurais e muito mais!</h1>
-                <p> O Webfarms® é a solução perfeita para problemas robustos e nunca enfrentados no mercado Agro.
-                Descubra o potencial dos nossos dashboards. </p>
-                <button class="btn btn-danger red-button"> Registre-se </button>
-            </div>
+            <hr>
         </div>
-        <hr>
-    </div>
+    </main>
     <!--Main e-->
     <!--Enterprises s-->
     <div class="container enterprises">
@@ -82,44 +84,46 @@
     </div>
     <!--Enterprises e-->
     <!--Content s-->
-    <div class="container text-center section-margin">
-        <h2>Muitas empresas já estão usando o WebFarms® nas suas fazendas</h2>
-        <p>Nossas soluções possibilitam uma operação com potencial máximo e de forma autônoma</p>
-        
-            <video  preload autoplay loop src="img/video.mp4" class="img-fluid"></video>
-        
-    </div>
+    <section class="conteudo">
+        <div class="container text-center section-margin">
+            <h2>Muitas empresas já estão usando o <br> WebFarms® nas suas fazendas</h2>
+            <p class="mt-4 mb-4">Nossas soluções possibilitam uma operação com potencial máximo e de forma autônoma</p>
+                <video  preload autoplay loop src="img/video.mp4" class="img-fluid"></video>
+        </div>
+    </section>
     <!--content e-->
     <!--contact s-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="img/Full Map.png" alt="" class="img-fluid">
-                <h5> Nosso Escritório</h5>
-                <p>R. Henrique Monteiro, 90 - 14º andar - Pinheiros São Paulo - SP, 05423-020</p>
-                <h4>Telefone</h4>
-                <p>+55 11 940347392</p>
-            </div>
-            <div class="col-md-6 background">
-                <h3>Queremos te ouvir!</h3>
-                <h4>Tem alguma dúvida, crítica ou sugestão ?</h4>
-                <p>Preencha os campos abaixo e envíe-nos sua mensagem. Prometemos lhe responder em até 24 horas.</p>
-                <form >
-                    <label for="nome" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="nome" placeholder="Vitor Gregorio">
-                    <label for="email" class="form-label mt-4">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="vitorvitorgregorio@scicorp.dev">
-                    <label for="text" class="form-label mt-4"> Mensagem </label>
-                    <textarea id="text" rows="4" class="form-control" placeholder="Escreve sua mensagem aqui!"></textarea>
-                    <button type="submit" class="btn btn-primary blue-button mt-4 mb-4"> Enviar </button>
-                </form>
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/Full Map.png" alt="" class="img-fluid">
+                    <h5 class="mt-4"> <i class="bi bi-geo-alt-fill me-3"></i> Nosso Escritório</h5>
+                    <p>R. Henrique Monteiro, 90 - 14º andar - Pinheiros São Paulo - SP, 05423-020</p>
+                    <h5> <i class="bi bi-telephone-fill me-3"></i> Telefone</h5>
+                    <p>+55 11 940347392</p>
+                </div>
+                <div class="col-md-6 background">
+                    <h3>Queremos te ouvir!</h3>
+                    <h4>Tem alguma dúvida, crítica ou sugestão ?</h4>
+                    <p>Preencha os campos abaixo e envíe-nos sua mensagem. Prometemos lhe responder em até 24 horas.</p>
+                    <form >
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Vitor Gregorio">
+                        <label for="email" class="form-label mt-4">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="vitorvitorgregorio@scicorp.dev">
+                        <label for="text" class="form-label mt-4"> Mensagem </label>
+                        <textarea id="text" rows="4" class="form-control" placeholder="Escreve sua mensagem aqui!"></textarea>
+                        <button type="submit" class="btn btn-primary blue-button mt-4 mb-4"> Enviar </button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--contact e-->
     <!--footer s-->
-    <footer class="section-margin">
-        <div class="container">
+    <footer>
+        <div class="container text-center">
             <div class="row">
                 <div class="col-md-6">
                     <ul>
@@ -138,7 +142,7 @@
 
                     </ul>
                 </div>
-                <div class="col-md-6 text-end">
+                <div class="col-md-6 ">
                     <ul>
                         <li>
                             <a href="#"> Instale nosso app </a>
@@ -155,17 +159,16 @@
             </div>
         </div>
         <hr>
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-md-6">
-                    <p>&copy; feito com <i class="bi bi-balloon-heart-fill"></i> por <a> Vitor Gregorio </a></p>
+                    <p>&copy; feito com 💜 por <a> Vitor Gregorio </a></p>
                 </div>
-                <div class="col-md-6 text-end">
-                    <a href="https://www.instagram.com/scicrop.oficial/" target="_blank" class="btn btn-light"> <i class="bi bi-instagram"></i> </a>
-                    <a href="" class="btn btn-light"> <i class="bi bi-twitter"></i> </a>
-                    <a href="https://www.facebook.com/Scicrop" target="_blank" class="btn btn-light"> <i class="bi bi-facebook"></i> </a>
-                    <a href="https://www.linkedin.com/company/scicrop/" target="_blank" class="btn btn-light"> <i class="bi bi-linkedin"></i> </a>
-                    <a href="https://www.youtube.com/channel/UCdW5xJ--Ehaszfeda36zxWw" target="_blank" class="btn btn-light"> <i class="bi bi-youtube"></i> </a>
+                <div class="col-md-6">
+                    <a href="https://www.instagram.com/scicrop.oficial/" target="_blank" class="btn"> <i class="bi bi-instagram"></i> </a>
+                    <a href="https://www.facebook.com/Scicrop" target="_blank" class="btn "> <i class="bi bi-facebook"></i> </a>
+                    <a href="https://www.linkedin.com/company/scicrop/" target="_blank" class="btn"> <i class="bi bi-linkedin"></i> </a>
+                    <a href="https://www.youtube.com/channel/UCdW5xJ--Ehaszfeda36zxWw" target="_blank" class="btn "> <i class="bi bi-youtube"></i> </a>
 
                 </div>
             </div>

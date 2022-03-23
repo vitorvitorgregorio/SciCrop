@@ -2,8 +2,72 @@
 body {
     font-family: 'Poppins';
 }
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72px;
+}
+main p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #848484;
+}
 .enterprises h4 {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+}
+.conteudo h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+.conteudo p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #848484;
+}
+.contact h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--red);
+}
+.contact h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+.contact p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #848484;
+}
+.contact h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer {
+    margin-top: 40px;
+    color: #fff;
+}
+footer ul {
+    list-style: none;
+}
+footer li {
+    padding-top: 8px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover {
+    color: var(--red);
 }

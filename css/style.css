@@ -8,7 +8,7 @@ header {
     min-height: 80px;
     text-align: center;
     justify-content: center;
-    box-shadow: 0px 0px 0px 2px #E5E9F2;
+    
 }
 .blue-button {
     background-color: var(--blue);
@@ -18,7 +18,7 @@ header {
 }
 .navbar-light .navbar-nav .nav-link {
     color: black;
-    border-radius: 16px;
+    border-radius: 4px;
     padding: 8px 16px;
 }
 .navbar-light .navbar-nav .nav-link:hover {
@@ -48,7 +48,14 @@ footer {
     padding: 40px 0px;
 }
 footer i {
-    color: rgb(179, 0, 179);
+    color: #fff;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+footer i:hover {
+    opacity: 1;
+    background-color: var(--blue);
 }
 .btn-outline-light {
     margin-top: 24px;
