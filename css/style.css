@@ -1,0 +1,62 @@
+.logo {
+    width: 160px;
+    margin-top: -4px;
+}
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #E5E9F2;
+    min-height: 80px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 2px #E5E9F2;
+}
+.blue-button {
+    background-color: var(--blue);
+}
+.red-button {
+    background-color: var(--red);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--red);
+    background-color: rgb(253, 245, 245);
+}
+.section-margin {
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+video {
+    border-radius: 20px;
+    width: 838px;
+    height: 471px;
+}
+textarea {
+    width: 100%;
+}
+.background {
+    border-radius: 10px;
+    padding-top: 16px;
+    
+    background-color: rgb(245, 247, 253);
+}
+footer {
+    background-color: #0B0D17;
+    padding: 40px 0px;
+}
+footer i {
+    color: rgb(179, 0, 179);
+}
+.btn-outline-light {
+    margin-top: 24px;
+    width: 162px;
+}
+.icon {
+    width: 24px;
+}
+.btn-light {
+    background-color: rgb(236, 236, 236);
+}
