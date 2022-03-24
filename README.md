@@ -1,15 +1,6 @@
 
-
-
-
-
-
-
-
-
-
 <img src="./img/logo.svg" width="100%" height="100px">
-<h1 align="center"> Landing page criada como teste para vaga de estágio na empresa SciCrop</h1>
+<h1 align="center"> Landing page criada em HTML, CSS, Bootstrap e Javascript para vaga de estágio na empresa SciCrop.</h1>
 <hr>
 
 <p align="center">
@@ -34,7 +25,11 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Landing page criada em HTML, CSS, Bootstrap e javascript para vaga de estágio na empresa SciCrop. No desafio proposto pediam para criar uma landing page contendo 3 sessôes (uma seção principal, uma seção de conteúdo e uma seção de contato.) utilizei como idéia criar uma landing page para o produto WebFarms
+  Landing page criada em HTML, CSS, Bootstrap e Javascript para vaga de estágio na empresa SciCrop.
+
+No desafio proposto foi pedido para criar uma Landing Page contendo 3 seções (1. Principal, 2. Conteúdo, 3. Contato). 
+
+Como o briefing estava amplo e deixando bastante livre a criação tive a idéia de desenvolver uma Landing Page para o produto WebFarms, uma plataforma de dashboards da SciCrop.
 </p>
 
 ## deploy da aplicação
