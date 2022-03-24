@@ -39,7 +39,7 @@ Como o briefing estava amplo e deixando bastante livre a criação tive a idéia
     <img src="img/exemplo.png" alt="">
     <h2> Minha solução para o desafio 🔽 </h2>
      </br>
-    <img src="img/webfarms.png" alt="" margin-top="10px">
+    <img src="img/landing.png" alt="" margin-top="10px">
     <h3> gostei de realizar esse desafio e propor uma landing page para o WebFarms </h3>
   </div>
 
